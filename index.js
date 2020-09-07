@@ -20,7 +20,7 @@ const badgeConfigs = [
         badgeText: 'jimmytruong.ca',
         labelBgColor: '4E69C8',
         logoBgColor: '4E69C8',
-        logo: 'Firefox',
+        logo: 'Facebook',
         link: 'https://jimmytruong.ca',
     },
     {
@@ -50,7 +50,7 @@ ${gif}\n
 ${factsTitle}\n
 ${facts}\n
 ${toolsTitle}\n
-<p align="left">\n
+
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
 ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
@@ -69,7 +69,7 @@ ${toolsTitle}\n
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 ![BitBucket](https://img.shields.io/badge/-BitBucket-darkblue?style=flat-square&logo=bitbucket)
-</p>\n
+
 ${stats}\n
 `;
     const markdownContent = md.render(content);
