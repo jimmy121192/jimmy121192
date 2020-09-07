@@ -18,9 +18,9 @@ const badgeConfigs = [
     {
         name: 'Website',
         badgeText: 'jimmytruong.ca',
-        labelBgColor: '4E69C8',
-        logoBgColor: '4E69C8',
-        logo: 'Facebook',
+        labelBgColor: 'FAFAFA',
+        logoBgColor: '5a0b06e8',
+        logo: 'Firefox',
         link: 'https://jimmytruong.ca',
     },
     {
@@ -51,10 +51,7 @@ ${factsTitle}\n
 ${facts}\n
 ${toolsTitle}\n
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
-![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap)
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript) ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js) ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
 ![Redis](https://img.shields.io/badge/-Redis-black?style=flat-square&logo=Redis)
