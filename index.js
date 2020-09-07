@@ -18,7 +18,7 @@ const badgeConfigs = [
     {
         name: 'Website',
         badgeText: 'jimmytruong.ca',
-        labelBgColor: '#5a0b06e8',
+        labelBgColor: '4E69C8',
         logoBgColor: '4E69C8',
         logo: 'Firefox',
         link: 'https://jimmytruong.ca',
