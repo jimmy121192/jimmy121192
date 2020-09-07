@@ -20,93 +20,30 @@ const badgeConfigs = [
         badgeText: 'jimmytruong.ca',
         labelBgColor: '#5a0b06e8',
         logoBgColor: '4E69C8',
-        logo: 'Chrome',
+        logo: 'Firefox',
         link: 'https://jimmytruong.ca',
     },
     {
         name: 'LinkedIn',
-        badgeText: '@serbis',
+        badgeText: '@jimmy1211',
         labelBgColor: '0077B5',
         logoBgColor: '0077B5',
         logo: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/serbis/',
+        link: 'https://www.linkedin.com/in/jimmy1211/',
     },
 ];
 const badges = badgeConfigs.reduce((result, config) => result + ' ' + generateBadge(config), '');
-const gif = `<img align="right" src="https://alonedreamer.com/jimmymedia/images/jimmy.gif" />`;
-const factsTitle = generateTitle(2, `:zap: A Few Quick Facts`);
+const gif = `<img align="right" src="https://alonedreamer.com/jimmymedia/images/jimmy-animated.gif" />`;
+const factsTitle = generateTitle(2, `:zap: Fun Facts`);
 const factsConfigs = [
     `🎶 I took my English name from the old country song “Don’t cry Joni”!.`
 ];
 const facts = factsConfigs.reduce((result, fact) => result + `\n - ${fact}`, '');
 const toolsTitle = generateTitle(2, `:rocket: Some Tools I Use`)
-const toolsIconSize = 25;
-const toolsConfig = [
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg',
-        alt: 'react',
-    },
-    {
-        src: 'https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original-wordmark.svg',
-        alt: 'vue',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg',
-        alt: 'bootstrap',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg',
-        alt: 'gulp',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg',
-        alt: 'typescript',
-    },
-    {
-        src: 'https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original-wordmark.svg',
-        alt: 'mongodb',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
-        alt: 'mysql',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg',
-        alt: 'redis',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg',
-        alt: 'nodejs',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-plain.svg',
-        alt: 'heroku',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/travis/travis-plain.svg',
-        alt: 'travis',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png',
-        alt: 'aws',
-    },
-    {
-        src: 'https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg',
-        alt: 'gcp',
-    },
-    {
-        src: 'https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg',
-        alt: 'Docker',
-    },
-    {
-        src: 'https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg',
-        alt: 'Kubernetes',
-    },
-];
-const tools = toolsConfig.reduce((result, toolConfig) => result + '\n' + generateIcon(toolConfig, toolsIconSize), '');
+
 const stats = `<img src="https://github-readme-stats.vercel.app/api?username=jimmy121192&show_icons=true&count_private=true" alt="jimmy121192" />`;
 (async () => {
-    const content = `${introTitle}\n
+ const content = `${introTitle}\n
 ${introDescription}\n
 ${badges}\n
 ${gif}\n
@@ -114,7 +51,24 @@ ${factsTitle}\n
 ${facts}\n
 ${toolsTitle}\n
 <p align="left">\n
-    ${tools}\n
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
+![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
+![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap)
+![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript)
+![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
+![Redis](https://img.shields.io/badge/-Redis-black?style=flat-square&logo=Redis)
+![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql)
+![Apollo GraphQL](https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql)
+![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
+![Heroku](https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku)
+![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker)
+![Amazon AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-232F7E?style=flat-square&logo=microsoft-azure)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-black?style=flat-square&logo=google-cloud)
+![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+![BitBucket](https://img.shields.io/badge/-BitBucket-darkblue?style=flat-square&logo=bitbucket)
 </p>\n
 ${stats}\n
 `;
