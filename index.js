@@ -31,6 +31,14 @@ const badgeConfigs = [
         logo: 'LinkedIn',
         link: 'https://www.linkedin.com/in/jimmy1211/',
     },
+    {   
+        name: 'Email',
+        badgeText: 'hoangbao1992@gmail.com',
+        labelBgColor: 'c14438',
+        logoBgColor: 'FFFFFF',
+        logo: 'Gmail',
+        link: 'mailto:hoangbao1992@gmail.com',
+    },
 ];
 const badges = badgeConfigs.reduce((result, config) => result + ' ' + generateBadge(config), '');
 const gif = `<img align="right" src="https://alonedreamer.com/jimmymedia/images/jimmy-animated.gif" />`;
